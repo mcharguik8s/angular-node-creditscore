@@ -8,6 +8,8 @@ angular.module('myApp').factory('CreditService', ['$http', '$q', function($http,
     creditScore: creditScore,
   };
 
+  
+  
   return factory;
 
   function creditScore(user) {
